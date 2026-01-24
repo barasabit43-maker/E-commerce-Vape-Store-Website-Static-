@@ -54,7 +54,7 @@ document.querySelectorAll(".product-card").forEach(card => {
 const waFloat = document.querySelector(".wa-float");
 
 waFloat.addEventListener("click", () => {
-  const phone = "6281234567890";
+  const phone = "6285880106951";
   const msg = selectedProduct 
     ? `Halo, saya ingin membeli ${selectedProduct}`
     : "Halo, saya ingin bertanya tentang produk";
@@ -73,4 +73,5 @@ products.forEach(product => {
     product.classList.add("active");
   });
 });
+
 
